@@ -1,4 +1,4 @@
-PUT  http://localhost:8000/companies/
+GET  https://tego-mcpz72z37-samers-projects.vercel.app/companies
 Content-Type: application/json
 
 {
@@ -28,3 +28,13 @@ Content-Type: application/json
     ]
 }
 
+####
+
+POST  https://tego-mcpz72z37-samers-projects.vercel.app/register
+Content-Type: application/json
+
+{
+    "email":"admin@admin.com",
+    "mobile_number":"01288335206",
+    "password":"sameradel"
+}
