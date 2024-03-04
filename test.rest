@@ -1,0 +1,30 @@
+PUT  http://localhost:8000/companies/
+Content-Type: application/json
+
+{
+    "id":19,
+    "name":"pp", 
+    "location":" hhhhhhhhhhhhhh",
+    "commercial_registration_number":"6345346464",
+    "tax_card_number":"423423",
+    "mobile":"23423",
+    "landline":"9999",
+    "fax_number":"7567",
+    "company_type":"supplier",
+    "company_capital":123445,
+    "owners":[
+       {"name":"Samer A1111111del",
+        "owner_id":"3123123",
+        "onwer_position":"manager",
+        "address":"street xyz"},
+        {"name":"Bassem Adel",
+        "owner_id":"123",
+        "onwer_position":"CEO",
+        "address":"street xyz"},
+        {"name":"Adel",
+        "owner_id":"96767",
+        "onwer_position":"not manager",
+        "address":"street xyz"}
+    ]
+}
+
